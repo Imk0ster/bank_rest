@@ -1,0 +1,9 @@
+spring:
+  config:
+    activate:
+      on-profile: docker
+  datasource:
+    url: jdbc:postgresql://postgres:5432/bank_cards
+    username: bank_user
+    password: bank_pass
+    driver-class-name: org.postgresql.Driver

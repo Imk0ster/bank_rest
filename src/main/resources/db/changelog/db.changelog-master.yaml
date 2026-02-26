@@ -1,0 +1,13 @@
+databaseChangeLog:
+
+  - include:
+      file: 001_create_users.yaml
+      relativeToChangelogFile: true
+
+  - include:
+      file: 002_create_cards.yaml
+      relativeToChangelogFile: true
+
+  - include:
+      file: 003_create_transfers.yaml
+      relativeToChangelogFile: true
